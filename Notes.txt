@@ -1,0 +1,94 @@
+HTML-hypertext Mark up language
+-------------------------------
+Basically Used for content creation
+markup language:design purpose(programming language:logical purpose),also called tag based language,run-browser
+tag-<tagname/>
+
+types of tag
+-------------
+1) opening tags - <tagname>
+2) closing tags - </tagname>
+3)self closing tags - <tagname/> eg: br,hr,img....etc
+
+basic structure
+---------------
+<html>
+<head> 
+- important informations , external file links,meta informations....etc
+<title>title</title>
+</head>
+<body>
+-content
+</body>
+</html>
+
+code editor - IDE- Integrated development environment
+c
+HTML5
+------
+-basic structure
+-semantic elements
+-audio video support
+-drag and drop api
+-responsive images
+-geo location api
+-canvas elements 
+-cross document messaging
+-view port
+
+* figure tag
+* placeholder tag
+
+different types of tags
+-----------------------
+1)heading tags- h 1-6
+2)paragraph tags- p
+
+(wrap a content into tag - alt+w  htmltagwrap)
+
+3)image tag - img(no closing tag)
+4)link tag - a (href-hypertext refference) - navigation
+5)semantic tags - reduce loading time
+   -header
+   -aside
+   -footer
+   -main
+6)video tag - video,source 
+7)hr tag- used to create horizontal lines
+8)audio tag - audio ,source
+9)figure tag - img,figcaption - image with caption (img tag cannot provide caption)
+10)i frame- external web contents(nested websites)
+11) break tag - br
+13)div tag- used to create divsions in web pages(block level)
+14)span tag- used to select a word in a line
+
+attribute- additional informations to the tag
+
+block elements - next line
+inline elements - same line
+
+void elements
+-------------
+-self closing tags
+
+lists
+-----
+1)ordered lists - ol,li
+2)unordered lists- ul,li
+
+tables
+------
+<table>
+<th></th>- table head
+<tr></tr>- table row
+<td></td>- table data
+</table>
+
+forms
+-----
+<form>
+<label>
+<input>
+
+type of input- text,password,email,number,file,radio,checkbox
+dropdownlist,textarea
